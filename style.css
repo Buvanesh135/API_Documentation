@@ -14,46 +14,32 @@ body {
    }
    
    .navigation {
-     display: flex;
-     flex-direction: column;
-     align-items: center; 
-     font-size: 18px; 
-   }
-   
-   .nav-item {
-     display: flex;
-     align-items: center;
-     margin-bottom: 10px; 
-   }
-   
-   .nav-item dt {
-     margin-right: 10px; 
-     font-weight: bold;
-   }
-   
-   .nav-item dd {
-     margin: 0 5px;
-     color: #555;
-   }
-   
-   .nav-item button {
-     margin-left: 10px;
-     font-size: 20px; 
-     padding: 12px 24px; 
-   }
-   .nav-item button {
-     margin-left: 10px;
-     font-size: 20px; /* Increase button font size */
-     padding: 12px 24px; /* Increase button padding */
-     background-color: #007bff; /* Button background color */
-     color: #fff; /* Text color */
-     border: none; /* Remove button border */
-     border-radius: 5px; /* Add border radius */
-     cursor: pointer; /* Add pointer cursor on hover */
-     transition: background-color 0.3s ease; /* Smooth background color transition */
-   }
-   
-   .nav-item button:hover {
-     background-color: #0056b3; /* Darker background color on hover */
-   }
-   
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .navigation tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navigation td {
+    padding: 10px;
+  }
+  
+  .navigation button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation button:hover {
+    background-color: #0056b3;
+  }
+.td-text{
+  font-size: 20px;
+  
+}
