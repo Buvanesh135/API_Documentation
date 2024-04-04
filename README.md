@@ -8,36 +8,36 @@
 
                                                
 
-     Here i Taken Example of Make_batch_API.md ,Similar documentation is done for all other Document as Well
+Here i Taken Example of Make_batch_API.md ,Similar documentation is done for all other Document as Well
 
-    1. # POST /make_batch_toingg/
+1. # POST /make_batch_toingg/
 
-     2.## Make Toingg
+2.## Make Toingg
 
-     3.### Parameters
+3.### Parameters
 
-     4.- `apiKey`: Your API key. (Type: string, Location: query, Required: Yes)
+4.- `apiKey`: Your API key. (Type: string, Location: query, Required: Yes)
 
-     5.### Request Body
+5.### Request Body
 
-     6.- Media type: application/json
+6.- Media type: application/json
 
-     7.{
+7.  {
      "campaign": "string",
      "numberList": {}
      }
 
-    8. ## Responses
+8. ## Responses
 
-    9.- **200 Successful Response**
+9.- **200 Successful Response**
 
-     - Media type: application/json
-     - Example Value:
+ - Media type: application/json
+ - Example Value:
      {
      "string"
      }
 
-    10. - **422 Validation Error**
+10. - **422 Validation Error**
      - Media type: application/json
      - Example Value:
      {
@@ -125,9 +125,7 @@ line 10.- **422 Validation Error**
      
 
 
-
-
-                                                       Setup
+ Setup
 
 step1: At First,Basically to transform given API to MarkDoc we can  use any text editor you prefer. Here in My Case I Used VS Code 
 
@@ -148,15 +146,15 @@ step4 :In my Case I Used to Transform the MarkDown to HTML So that i Can we Disp
 
 
 
-                                        How To View the Document 
+How To View the Document 
 
 
-               1.Here I Hosted   the  API Documentation  as  WebSite and its Simple to View 
+1.Here I Hosted   the  API Documentation  as  WebSite and its Simple to View 
 
-               Here are steps:
-               step 1: Click on this Link https://buvanesh135.github.io/API_Documentation/
-               step 2: Now you can view Each and every Documentation Made for Every API
-               step 3: Click ON "open" Button to View it
+Here are steps:
+step 1: Click on this Link https://buvanesh135.github.io/API_Documentation/
+step 2: Now you can view Each and every Documentation Made for Every API
+step 3: Click ON "open" Button to View it
 
 
                
